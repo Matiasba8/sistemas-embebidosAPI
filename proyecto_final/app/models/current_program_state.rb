@@ -1,0 +1,2 @@
+class CurrentProgramState < ApplicationRecord
+end
