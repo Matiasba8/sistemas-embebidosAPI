@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  screen: 1
+  velocity_mode: 1
+  current_velocity: 1.5
+  current_distance: 1.5
+  partial_distance: 1.5
+  cruise_mode_on: false
+  cruising_spped: 1.5
+  perimeter: 1.5
+  max_velocity: 1.5
+  curve_amplitude: 1.5
+
+two:
+  screen: 1
+  velocity_mode: 1
+  current_velocity: 1.5
+  current_distance: 1.5
+  partial_distance: 1.5
+  cruise_mode_on: false
+  cruising_spped: 1.5
+  perimeter: 1.5
+  max_velocity: 1.5
+  curve_amplitude: 1.5

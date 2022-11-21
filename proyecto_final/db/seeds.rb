@@ -7,4 +7,4 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 
-program_state_init = CurrentProgramState.create()
+program_state_init = CurrentProgramState.create!(screen: 1)
