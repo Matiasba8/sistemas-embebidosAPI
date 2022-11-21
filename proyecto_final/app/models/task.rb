@@ -25,9 +25,9 @@ class Task < ApplicationRecord
   end
 
   def check_current_velocity_range
-    if max_velocity.present?
-      if !(max_velocity >= 0 && max_velocity <= 180)
-        errors.add(:max_velocity, "El rango de la actual velocidad (current_velocity) debe de estar entre el 0 y el 180 inclusive")
+    if current_velocity.present?
+      if !(current_velocity >= 0 && current_velocity <= 180)
+        errors.add(:current_velocity, "El rango de la actual velocidad (current_velocity) debe de estar entre el 0 y el 180 inclusive")
       end
     end
   end

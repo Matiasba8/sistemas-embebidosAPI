@@ -7,7 +7,7 @@ class CreateTasks < ActiveRecord::Migration[7.0]
       t.float :current_distance
       t.float :partial_distance
       t.boolean :cruise_mode_on
-      t.float :cruising_spped
+      t.float :cruising_speed
       t.float :perimeter
       t.float :max_velocity
       t.float :curve_amplitude

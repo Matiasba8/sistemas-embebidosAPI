@@ -36,7 +36,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_11_21_185325) do
     t.float "current_distance"
     t.float "partial_distance"
     t.boolean "cruise_mode_on"
-    t.float "cruising_spped"
+    t.float "cruising_speed"
     t.float "perimeter"
     t.float "max_velocity"
     t.float "curve_amplitude"
